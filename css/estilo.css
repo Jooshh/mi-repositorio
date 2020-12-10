@@ -1,0 +1,277 @@
+h1 {
+	color: #b76ec2;
+	text-align: center;
+	background-color: #ffe0fb;
+	font-family: 'Satisfy', cursive;
+	font-size: 4.0rem;
+	margin-top: 15px;
+}	
+body {
+	background-image: url(imagenfondo1.jpg);
+	font-family: 'Satisfy', cursive;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	margin-top: 50px;
+}
+a {
+	text-decoration: none;
+}
+
+h2 {
+	color: #c110c7;
+	font-size: 50px;
+
+}
+
+
+input, textarea {
+	width: 100%;
+	border: none;
+	box-sizing: border-box;
+	border: none;
+}
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: #ffe0fb;
+	border-radius: 8px;
+	font-size: 0;
+	font-weight: bolder;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 25px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-align: center;
+	color: #b76ec2;
+	cursor: pointer;
+	font-family: 'Satisfy', cursive;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 25%;
+}
+a:nth-child(2) {
+	width: 25%;
+}
+a:nth-child(3) {
+	width: 25%;
+}
+a:nth-child(4) {
+	width: 25%;
+}
+
+nav .start-postres, a:nth-child(1):hover~.animation {
+	width: 25%;
+	left: 0;
+	background-color: #faffc4;
+}
+nav .start-cookies, a:nth-child(2):hover~.animation {
+	width: 25%;
+	left: 25%;
+	background-color: #faffc4;
+}
+nav .start-combos, a:nth-child(3):hover~.animation {
+	width: 25%;
+	left: 50%;
+	background-color: #faffc4;
+}
+nav .start-contacto, a:nth-child(4):hover~.animation {
+	width: 25%;
+	left: 75%;
+	background-color: #faffc4;
+}
+
+
+.formulariocont {
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+.redes {
+	color: #c093c4;
+}
+.tablapostre {
+	border-color: #ffffb5;
+
+}
+.tablagalletas {
+	border-color: #ffffb5;
+}
+.contacto1 {
+	background-image: url(imagencontacto.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+.contacto {
+	color: #414a43;
+
+}
+.fondoindex {
+	margin: 0;
+	margin-top: 40px;
+	width: 400px;
+}	
+.fondopostre {
+	margin: 0;
+	margin-top: 40px;
+	width: 400px;
+}
+.postre2 {
+	margin-top: 40px;
+	width: 400px;
+}
+
+.fondoinicio {
+	width: 50%;
+	display: block;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-top: 20px;	
+}
+
+
+
+#inicioup {
+	font-size: 25px;
+}
+#galletasup {
+	font-size: 25px;
+}
+#postreup {
+	font-size: 25px;
+}
+#combosup {
+	font-size: 25px;
+}
+#contactoup {
+	font-size: 25px;
+}
+
+.contenedor {
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.divcombos {
+	min-width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	height: auto;
+}
+.divpostres {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	height: auto;
+}
+.desayuno {
+	max-width: 100%;
+	margin-top: 50px;
+	width: 400px;
+}
+.cajadulce {
+	max-width: 100%;
+	margin-top: 50px;
+	width: 400px;
+}
+.cajaletra {
+	width: 400px;
+	margin-top: 50px;
+	max-width: 100%;
+	
+}
+.lorem1 {
+	margin-top: 50px;
+}
+h4 {
+	margin-top: 30px;
+}
+.carousel-inner {
+	width: 100%;
+	height: 100%;
+}
+img {
+	margin-top: 40px;
+}
+input {
+	margin: 2px;
+}
+.redes-menu ul {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	display: flex;
+	margin-left: 48%;
+	margin-top: 30px;
+
+}
+.redes-menu ul li {
+	list-style: none;
+	margin: 0 15px;
+
+}
+.redes-menu ul li .fa {
+	font-size: 30px;
+	line-height: 60px;
+	transition: .6s;
+	color: #000;
+
+}
+.redes-menu ul li .fa:hover {
+	color: #fff;
+}
+.redes-menu ul li a {
+	position: relative;
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
+	transition: .6s;
+	box-shadow: 0 5px 4px rgba(0,0,0,.5);
+
+}
+.redes-menu ul li a:hover {
+	transform: translate(0, -10px);
+}
+.redes-menu ul li:nth-child(1) a:hover {
+	background-color: #3b5999;
+
+}
+.redes-menu ul li:nth-child(2) a:hover {
+	background-color: #55acee;
+
+}
+.redes-menu ul li:nth-child(3) a:hover {
+	background-color: #e4405f;
+
+}
